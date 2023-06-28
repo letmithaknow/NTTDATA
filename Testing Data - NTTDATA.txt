@@ -1,0 +1,117 @@
+Clientes:
+{
+    "Nombres": "Jose Lema",
+    "Direccion": "Otavalo sn y principal",
+    "Telefono": "098254785",
+    "Contrasena": "1234",
+    "Estado": "True"
+}
+{
+    "Nombres": "Marianela Montalvo",
+    "Direccion": "OAmazonas y  NNUU",
+    "Telefono": "097548965",
+    "Contrasena": "5678",
+    "Estado": "True"
+}
+{
+    "Nombres": "Juan Osorio",
+    "Direccion": "13 junio y Equinoccial",
+    "Telefono": "098874587",
+    "Contrasena": "1245",
+    "Estado": "True"
+}
+
+Cuentas:
+{
+    "NumeroCuenta": "478758",
+    "NombredeCliente": "Jose Lema",
+    "TipodeCuenta": "Ahorro",
+    "SaldoInicial": "2000",
+    "Estado": "True"
+}
+
+{
+    "NumeroCuenta": "225487",
+    "NombredeCliente": "Marianela Montalvo",
+    "TipodeCuenta": "Corriente",
+    "SaldoInicial": "100",
+    "Estado": "True"
+}
+
+{
+
+    "NumeroCuenta": "495878",
+    "NombredeCliente": "Juan Osorio",
+    "TipodeCuenta": "Ahorros",
+    "SaldoInicial": "0",
+    "Estado": "True"
+}
+
+{
+
+    "NumeroCuenta": "496825",
+    "NombredeCliente": "Marianela Montalvo",
+    "TipodeCuenta": "Ahorros",
+    "SaldoInicial": "540",
+    "Estado": "True"
+}
+
+Cuenta Corriente para Jose Lema
+
+{
+
+    "NumeroCuenta": "585545",
+    "NombredeCliente": "Jose Lema",
+    "TipodeCuenta": "Corriente",
+    "SaldoInicial": "1000",
+    "Estado": "True"
+}
+
+
+Movimientos:
+
+{
+    "NumeroCuenta": "478758",
+    "NombredeCliente": "Jose Lema",
+    "TipodeCuenta": "Ahorro",
+    "SaldoInicial": "575",
+    "TipoMovimiento": "Retiro",
+    "MovimientoMonto": "2000",
+    "Estado": "True",
+    "FechaMovimiento": "01012023"    
+}
+
+{
+    "NumeroCuenta": "225487",
+    "NombredeCliente": "Marianela Montalvo",
+    "TipodeCuenta": "Corriente",
+    "SaldoInicial": "100",
+    "TipoMovimiento": "Deposito",
+    "MovimientoMonto": "600",
+    "Estado": "True",
+    "FechaMovimiento": "01012023"    
+}
+
+{
+    "NumeroCuenta": "495878",
+    "NombredeCliente": "Juan Osorio",
+    "TipodeCuenta": "Ahorros",
+    "SaldoInicial": "0",
+    "TipoMovimiento": "Deposito",
+    "MovimientoMonto": "150",
+    "Estado": "True",
+    "FechaMovimiento": "01012023"    
+}
+
+{
+    "NumeroCuenta": "496825",
+    "NombredeCliente": "Marianela Montalvo"",
+    "TipodeCuenta": "Ahorros",
+    "SaldoInicial": "540",
+    "TipoMovimiento": "Retiro",
+    "MovimientoMonto": "540",
+    "Estado": "True",
+    "FechaMovimiento": "01012023"    
+}
+
+
