@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "f672f7aa-daea-47a9-8ac6-76c7445ef2e1",
+		"name": "NTTDATA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28192656"
+	},
+	"item": [
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "CrearClientes",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"Nombres\":\t\"Manikandan C\",\r\n\"Direccion\":\"Ecuador\",\r\n\"Telefono\":\"098635214\",\r\n\"Contrasena\":\"Mani\",\r\n\"Estado\":\"true\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/Clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Clientes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cuentas",
+			"item": [
+				{
+					"name": "CrearCuentas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"NumeroCuenta\":\"1234\",\r\n\"NombredeCliente\":\"Manikandan C\",\r\n\"TipodeCuenta\":\"Ahorro\",\r\n\"SaldoInicial\":\"100\",\r\n\"Estado\":\"true\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/Cuentas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Cuentas"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Movimientos",
+			"item": [
+				{
+					"name": "CrearMovimientos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NumeroCuenta\": \"222222\",\r\n    \"NombredeCliente\": \"Madhu\",\r\n    \"TipodeCuenta\": \"Ahorro\",\r\n    \"SaldoInicial\": \"\",\r\n    \"TipoMovimiento\": \"Debito\",\r\n    \"MovimientoMonto\": \"100000\",\r\n    \"FechaMovimiento\": \"01012023\",\r\n    \"Estado\": \"true\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/Movimientos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Movimientos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SolicitarReportes",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/Movimientos/Reportes/478758/01012023",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Movimientos",
+								"Reportes",
+								"478758",
+								"01012023"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
